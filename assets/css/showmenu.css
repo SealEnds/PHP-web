@@ -1,0 +1,20 @@
+
+#drop-down-1{
+    display: block;
+}
+
+#drop-down-1 li:hover{
+    border-left: 3px solid #13AFF0;
+    background-color: #292929;
+    transition: all 200ms;
+}
+#drop-down-1 li a{
+    color: #BBBBBB;
+    font-size: 16px;
+}
+#drop-down-1 li:hover a{
+    color: white;
+}
+.border-drop-down-1{
+    border-top: 1px solid #5D5D5D;
+}

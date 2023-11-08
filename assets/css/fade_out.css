@@ -1,0 +1,11 @@
+/* Animación para la salida y entrada de imágenes del slider*/
+
+#img-slider{
+    animation: image-transition 1000ms linear;
+    
+}
+@keyframes image-transition{
+    0%{opacity: 100;}
+    50%{ opacity: 50;}
+    100%{opacity: 0;}
+}
